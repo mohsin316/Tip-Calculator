@@ -21,7 +21,7 @@
 }
 
 html::-webkit-scrollbar{
-    width: .75vw;
+    width: .5vw;
 }
 
 html::-webkit-scrollbar-thumb{
