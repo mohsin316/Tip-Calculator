@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Tip calculator app</title>
+</head>
+<body>
+  <header><img src="images/logo.svg" alt="" srcset=""></header>
+
+  <main class="container">
+
+    <form class="grid-container">
+
+      <div class="bill-container">
+        <label for="bill">Bill</label> 
+        <p class="error-msg">Can't be zero</p>
+        <input data-bill type="number" id="bill" class="bill" max="1000" min="0"  step=".01">
+        <button class="test"></button>
+      </div>
+
+      <div data-tipButton class="tip-container">
+        <p class="tip-info"> Select Tip %</p>
+        <button data-button >5%</button>
+        <button data-button >10%</button>
+        <button data-button >15%</button>
+        <button data-button >25%</button>
+        <button data-button >50%</button>
+        <input data-custom type="number" minlength="1" maxlength="3" placeholder="Custom"  max="100"  step=".01">
+      </div>
+
+      <div class="people-container">
+        <label for="people">Number of People</label>
+        <p class="error-msg">Can't be zero</p>
+        <input data-people type="number" id="people" class="people" max="100">
+      </div>
+
+    </form>
+
+    <div class="display-container">
+
+      <div class="tip-amount">
+        <div class="tip-text">
+          <p>Tip Amount</p>
+          <span>/ person</span>
+        </div>
+
+        <div data-tip-display class="tip-display">$0.00</div>
+      </div>
+
+      <div class="total-amount">
+        <div class="total-text">
+          <p>Total</p>
+          <span>/ person</span>
+        </div>
+
+        <div data-total-display class="total-display">$0.00</div>
+      </div>
+      
+      <button data-reset type="button">RESET</button>
+  </div>
+
+  </main>
+
+  <script src="scripts/UI.js"></script>
+  <script src="scripts/functionality.js"></script>
+  <script src="scripts/app.js"></script>
+
+</body>
+</html>
