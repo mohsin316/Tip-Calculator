@@ -200,7 +200,6 @@ label{
     color: var(--strong-cyan);
     transition: all 100ms ease-in-out;
     opacity: 0;
-    transition: opacity 200ms ease-in-out;
 }
 
 .view{
