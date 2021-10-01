@@ -75,12 +75,13 @@ class Calculator{
         const roundTwo = (Math.round(tipTotal * 100) / 100).toFixed(2)
         
         this.updateUI(roundOne, roundTwo)
-
     }
 
     updateUI(tip, total){
+            //all the removal of class "view" followed by 2 setTimeout() function is what gives the fade in and fade out transition of the text for the two output display. 
+
             this.tipDisplay.classList.remove('view')
-            this.totalDisplay.classList.remove('view')
+            this.totalDisplay.classList.remove('view')  
 
             setTimeout(() => {
                 this.tipDisplay.textContent = `$${tip}`
