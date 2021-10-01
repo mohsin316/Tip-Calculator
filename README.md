@@ -58,7 +58,7 @@ For future plans for now its to do more and more javascript. I just recently fin
 ### Useful resources
 
 - [net ninja](https://netninja.dev/courses) - This helped me for Studying javascript. I really liked this course and i highly recommend to begginers.
-- [Kevin Powell](https://www.youtube.com/kepowob) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Kevin Powell](https://www.youtube.com/kepowob) - This person is extremely talented and has helped me learn most of the things i know in CSS. highly recommend to anyone who is studying CSS.
 
 ## Author
 
