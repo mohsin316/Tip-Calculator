@@ -62,5 +62,6 @@ For future plans for now its to do more and more javascript. I just recently fin
 
 ## Author
 
+- [My website](https://mohsins-solutions.netlify.app/)
 - Frontend Mentor - [@mohsin316](https://www.frontendmentor.io/profile/mohsin316)
 - Twitter - [@Mohsin_316](https://twitter.com/Mohsin_316)
